@@ -19,7 +19,7 @@ for product in products:
     #print(price_str)
     price = float(price_str.replace('Â£', ''))  #converting the price written to a number hence remove the GBP sign
     print(type(price))##experienced an error trying to convert to KES
-    data.append({'name': name, 'price_gbp': price}) #add to the empty data list
+    data.append({'name': name, 'price_gbp': price}) #create the library of this and assigning it to data
     #print(data)
 
 # I will be using the exchange rate api to get the api key
