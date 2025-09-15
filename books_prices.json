@@ -1,52 +1,52 @@
 [
     {
         "name": "A Light in the Attic",
-        "price": 51.77,
+        "price_gbp": 51.77,
         "price_kes": 6690.5
     },
     {
         "name": "Tipping the Velvet",
-        "price": 53.74,
+        "price_gbp": 53.74,
         "price_kes": 6945.09
     },
     {
         "name": "Soumission",
-        "price": 50.1,
+        "price_gbp": 50.1,
         "price_kes": 6474.67
     },
     {
         "name": "Sharp Objects",
-        "price": 47.82,
+        "price_gbp": 47.82,
         "price_kes": 6180.02
     },
     {
         "name": "Sapiens: A Brief History of Humankind",
-        "price": 54.23,
+        "price_gbp": 54.23,
         "price_kes": 7008.41
     },
     {
         "name": "The Requiem Red",
-        "price": 22.65,
+        "price_gbp": 22.65,
         "price_kes": 2927.17
     },
     {
         "name": "The Dirty Little Secrets of Getting Your Dream Job",
-        "price": 33.34,
+        "price_gbp": 33.34,
         "price_kes": 4308.69
     },
     {
         "name": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
-        "price": 17.93,
+        "price_gbp": 17.93,
         "price_kes": 2317.18
     },
     {
         "name": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
-        "price": 22.6,
+        "price_gbp": 22.6,
         "price_kes": 2920.71
     },
     {
         "name": "The Black Maria",
-        "price": 52.15,
+        "price_gbp": 52.15,
         "price_kes": 6739.61
     }
 ]
