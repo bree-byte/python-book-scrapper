@@ -17,9 +17,9 @@ for product in products:
     name = product.find('h3').find('a')['title'].strip()
     price_str = product.find('p', class_='price_color').text.strip()
     #print(price_str)
-    price = float(price_str.replace('Â£', ''))  #converting the price written to a number hence remove the GBP sign
-    print(type(price))##experienced an error trying to convert to KES
-    data.append({'name': name, 'price': price}) #add to the empty data list
+    price_gbp = float(price_str.replace('Â£', ''))  #converting the price written to a number hence remove the GBP sign
+    print(type(price_gbp))##experienced an error trying to convert to KES
+    data.append({'name': name, 'price_gbp': price}) #create the library of this and assigning it to data
     #print(data)
 
 # I will be using the exchange rate api to get the api key
@@ -42,7 +42,7 @@ print(get_currency())# to see the exchange rate as at the time you are running t
 
 #let us loop through the data we had established
 for book in data:
-    book['price_kes'] = round(book['price'] * 129.235, 2)  # Adds key to book dict!
+    book['price_kes'] = round(book['price_gbp'] * 129.235, 2)  # Adds key to book dict!
 
 print(f"Books_prices (KES): {[book['price_kes'] for book in data]}")#update data with the new currency price and assigning it to variable price_kes
 #open or create a file, with a file name as books_prices.json → the filename.
